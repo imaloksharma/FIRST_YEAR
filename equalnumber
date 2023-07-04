@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+  int n = 0;
+  printf("enter a number:");
+  scanf("%d", &n);
+  switch (n) {
+
+  case 1:
+    printf("number is equals to 1");
+    break;
+  case 2:
+    printf("number is equal to 2");
+    break;
+  case 3:
+    printf("number is equal to 3");
+    break;
+
+  default:
+    printf("number is not equal to 1, 2 or 3");
+  }
+  return 0;
+}
